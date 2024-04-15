@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #029491;
+}
+
+.footer__logo {
+  padding-left: 60px;
+}
+
+.footer__info {
+  font-size: 14px;
+  padding-top: 25px;
+  padding-right: 45px;
+  color: #ffffff;
+}
+
+.footer__link {
+  color: #ffffff;
+}
+
+.coopyright {
+  padding-bottom: 25px;
+}

@@ -1,0 +1,237 @@
+@font-face {
+  font-family: "Ferry";
+  src: local("Ferry"), url("../fonts/font.otf") format("truetype");
+  font-weight: bold;
+}
+
+.main__wrapper {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section_1 {
+  width: 1320px;
+  height: 620px;
+  background-image: url(../../public/img/Section1Image.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+/* .heading__image {
+  position: relative;
+  left: 800px;
+  bottom: 400px;
+} */
+
+.section__1-heading {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-family: "Ferry";
+  padding-left: 60px;
+  padding-top: 69px;
+}
+
+.heading__text {
+  padding-left: 60px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.heading__btn {
+  width: 335px;
+  height: 59px;
+  margin-left: 60px;
+  margin-top: 70px;
+  background-color: #5970ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.section_2 {
+  padding-top: 102px;
+}
+
+.heading__2 {
+  font-size: 45px;
+  text-transform: uppercase;
+  font-family: "Ferry";
+  margin-bottom: 70px;
+}
+
+.firstslider__block {
+  width: 1346px;
+  height: 349px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 70px;
+}
+
+.firstslider__card {
+  height: 225px;
+  width: 400px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  padding: 30px 20px;
+  box-shadow: 5px 5px 10px rgba(128, 128, 128, 1);
+}
+
+.slick-slide {
+  margin-right: 30px;
+}
+
+.firstslider__card-text {
+  margin-top: 19px;
+  font-size: 18px;
+}
+
+.firstslider {
+  width: 1346px;
+}
+
+.arrow_left {
+  /* z-index: 1;  */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -50px;
+}
+
+.arrrow_right {
+  /* z-index: 1;  */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -50px;
+}
+
+.Section__2-img {
+  padding-top: 40px;
+  padding-left: 51px;
+}
+
+.section_3 {
+  padding-top: 107px;
+  padding-left: 60px;
+}
+
+.section__3-heading {
+  font-size: 45px;
+  text-transform: uppercase;
+  font-family: "Ferry";
+}
+
+.tariff__cards {
+  display: flex;
+  gap: 37px;
+  padding-top: 70px;
+  padding-bottom: 118px;
+}
+
+.heading__card {
+  font-size: 30px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.text__card {
+  font-size: 18px;
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+.card {
+  width: 415px;
+  height: 540px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.card__header {
+  width: 415px;
+  height: 132px;
+}
+
+.card__icon {
+  position: relative;
+  left: 298px;
+  bottom: 95px;
+}
+
+.card__main-content {
+  position: relative;
+}
+
+.current__tariff {
+  background-color: #3ba5e0;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 3px 13px 4px;
+  width: 134px;
+  position: absolute;
+  left: 271px;
+  top: 12px;
+}
+
+.price__container {
+  display: flex;
+  gap: 19px;
+}
+
+.price {
+  font-size: 30px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.price__withsale {
+  color: #808080;
+  font-size: 25px;
+  padding-top: 33px;
+}
+
+.about__tariff {
+  padding-top: 40px;
+  padding-left: 30px;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.about__tariff-topic {
+  font-size: 18px;
+  padding-left: 30px;
+}
+
+.about__tariff-topic::before {
+  content: url("../../public/img/Check.svg");
+  margin-right: 8px;
+}
+
+.card__button {
+  width: 355px;
+  height: 59px;
+  margin-top: 50px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #5970ff;
+  margin-left: 30px;
+  color: #ffffff;
+}
+
+.card__button-active {
+  width: 355px;
+  height: 59px;
+  margin-top: 50px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #d2d2d2;
+  margin-left: 30px;
+}

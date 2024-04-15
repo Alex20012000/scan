@@ -1,0 +1,198 @@
+.searchresult__wrapper {
+  width: 1440px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.searchresult__section-1 {
+  padding-left: 60px;
+}
+
+.searchresult__section-1-heading {
+  font-size: 45px;
+  text-transform: uppercase;
+  font-family: "Ferry";
+}
+
+.searchresult__section-1-text {
+  padding-top: 36px;
+  font-size: 20px;
+}
+
+.searchresult__section-1-img {
+  position: absolute;
+  left: 784px;
+  top: 0;
+}
+
+.general__summary {
+  width: 1346px;
+  height: 260px;
+  margin-top: 127px;
+  margin-left: 60px;
+}
+
+.general__summary-main {
+  width: 1260px;
+  height: 158px;
+  border: 2px solid #029491;
+  border-radius: 10px;
+  display: flex;
+}
+
+.search__summary-slider {
+  width: 1127px;
+  height: 158px;
+  display: flex;
+  padding: 20px 0;
+}
+
+.date__and-general {
+  border-right: 2px solid #949494;
+  padding: 0 20px 0 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.general__summary-title {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: "Ferry";
+}
+
+.general__summary-subtitle {
+  font-size: 18px;
+  color: #949494;
+  padding-top: 17px;
+  margin-bottom: 27px;
+}
+
+.general__summary-main-titles {
+  width: 133px;
+  height: 158px;
+  background-color: #029491;
+  padding: 17px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.general__summary-publication {
+  width: 1600px;
+
+  margin-top: 107px;
+}
+
+.publication__heading-title {
+  margin-bottom: 58px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: "Ferry";
+}
+
+.general__summary-allpublication {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 60px;
+  justify-content: space-between;
+}
+
+.general__sumaary-btn {
+  margin-left: 568px;
+  margin-right: auto;
+  background-color: #5970ff;
+  width: 305px;
+  height: 59px;
+  color: #fff;
+  font-size: 22px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 54px;
+  margin-bottom: 109px;
+  cursor: pointer;
+}
+
+.publication__block {
+  position: relative;
+  width: 641px;
+  height: 900px;
+  padding: 19px 30px;
+  box-shadow: 0px 0px 20px rgb(122, 121, 121);
+  border-radius: 10px;
+}
+
+.publication__block-titleAndDate {
+  display: flex;
+}
+
+.publication__date {
+  margin-right: 14px;
+}
+
+.publication__author {
+  text-decoration: underline;
+}
+
+.publication__heading {
+  font-family: Inter;
+  font-size: 26px;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 25px;
+}
+
+.publication__subtitle {
+  width: 157px;
+  height: 22px;
+  border-radius: 5px;
+  background-color: #ffb64f;
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+  margin-top: 14px;
+}
+
+.publication__text-first {
+  margin-top: 20px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.publication__button {
+  width: 223px;
+  height: 46.54px;
+  background: #7ce3e1;
+  font-size: 16px;
+  line-height: 19.36px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  position: absolute;
+  bottom: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.publication__wordCount {
+  position: absolute;
+  bottom: 35px;
+  right: 28px;
+}

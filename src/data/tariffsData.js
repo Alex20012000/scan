@@ -1,0 +1,46 @@
+export const tariffsData = [
+  {
+    currentTariff: true,
+    color: "#ffb64f",
+    icon: "img/TariffCard-1.svg",
+    price: "799 ₽",
+    subtitle: "Для небольшого исследования",
+    tariffIncludes: [
+      "Безлимитная история запросов",
+      "Безопасная сделка",
+      "Поддержка 24/7",
+    ],
+    title: "Beginner",
+    withoutSell: "1200 ₽",
+    credit: "или 150 ₽/мес. при рассрочке на 24 мес.",
+  },
+  {
+    currentTariff: false,
+    color: "#000000",
+    icon: "img/TariffCard-3.svg",
+    price: "2 379  ₽",
+    subtitle: "Для корпоративных клиентов",
+    tariffIncludes: [
+      "Все пункты тарифа Pro",
+      "Безлимитное количество запросов",
+      "Приоритетная поддержка",
+    ],
+    title: "Business",
+    withoutSell: "3 700 ₽",
+  },
+  {
+    currentTariff: false,
+    color: "#7ce3e1",
+    icon: "img/TariffCard-2.svg",
+    price: "1299 ₽",
+    subtitle: "Для HR и фрилансеров",
+    tariffIncludes: [
+      "Все пункты тарифа Beginner",
+      "Экспорт истории",
+      "Рекомендации по приоритетам",
+    ],
+    title: "Pro",
+    withoutSell: "2600 ₽",
+    credit: "или 279 ₽/мес. при рассрочке на 24 мес.",
+  },
+];

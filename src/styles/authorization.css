@@ -1,0 +1,136 @@
+.authorization__section {
+  width: 1440px;
+  height: 100%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 60px;
+}
+
+.authorization__main-form {
+  width: 480px;
+  height: 578px;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.authorization__icon {
+  position: absolute;
+}
+
+.authorization__heading {
+  padding-top: 69px;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-family: "Ferry";
+  padding-left: 60px;
+}
+
+.heading__img {
+  margin-left: 172px;
+  margin-top: 14px;
+}
+
+.authorization__section-2 {
+  margin-left: 51px;
+  width: 429px;
+  height: 532px;
+  box-shadow: 5px 5px 10px rgba(128, 128, 128, 1);
+  border-radius: 10px;
+
+  margin-top: 69px;
+}
+
+.btn__authorization-login {
+  margin-left: 15px;
+  margin-top: 25px;
+  width: 150px;
+  height: 29px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #029491;
+  color: #029491;
+  background-color: transparent;
+}
+
+.btn__authorization-register {
+  margin-left: 15px;
+  width: 231px;
+  height: 29px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #c7c7c7;
+  color: #c7c7c7;
+  background-color: transparent;
+}
+
+.authorization__input-login {
+  padding-left: 25px;
+  padding-top: 40px;
+  color: #949494;
+  font-size: 16px;
+}
+
+.authorization__input-pass {
+  padding-left: 25px;
+  padding-top: 20px;
+  color: #949494;
+  font-size: 16px;
+}
+
+.authorization__input {
+  width: 379px;
+  height: 43px;
+  margin-top: 15px;
+  margin-left: 25px;
+  border-radius: 5px;
+  border: 1px solid #c7c7c7;
+}
+
+.authorization__input-failed{
+  width: 379px;
+  height: 43px;
+  margin-top: 15px;
+  margin-left: 25px;
+  border-radius: 5px;
+  border: 1px solid #c7c7c7;
+  color: red;
+  box-shadow: 0px 0px 5px red;
+}
+
+.auhorization__completed-btn {
+  width: 379px;
+  height: 59px;
+  margin-top: 30px;
+  margin-left: 25px;
+  border: none;
+  background-color: #5970ff;
+  border-radius: 5px;
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.forgotpass__btn {
+  margin-top: 15px;
+  margin-left: 139px;
+  font-size: 14px;
+  color: #5970ff;
+  border: none;
+  border-bottom: 1px solid #5970ff;
+  cursor: pointer;
+}
+
+.another__authorization-text {
+  padding-left: 25px;
+  padding-top: 20px;
+  color: #949494;
+  cursor: pointer;
+}
+
+.another__authorization-icons {
+  padding-top: 15px;
+  padding-left: 25px;
+  display: flex;
+  gap: 15px;
+}

@@ -1,0 +1,249 @@
+.search__main {
+  width: 1440px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading__search {
+  font-size: 45px;
+  text-transform: uppercase;
+  font-family: "Ferry";
+  padding-left: 60px;
+}
+
+.search__main-heading {
+  width: 1298px;
+  height: 214px;
+  position: relative;
+}
+
+.heading__image-1 {
+  position: absolute;
+  left: 878px;
+  top: 108px;
+}
+
+.heading__image-2 {
+  position: absolute;
+  left: 1135px;
+  top: 126px;
+}
+
+.subheading__serch {
+  padding-top: 29px;
+  padding-left: 60px;
+  font-size: 20px;
+}
+
+.search__section-wrapper {
+  background-image: url(../../public//img/SearchPageImg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.search__section {
+  display: flex;
+  width: 872px;
+  height: 543px;
+  box-shadow: 2px 2px 12px rgba(128, 128, 128, 1);
+  border-radius: 10px;
+  margin-left: 53px;
+  margin-bottom: 64px;
+  margin-top: 47px;
+}
+
+.search__section-1 {
+  padding-left: 44px;
+}
+
+.title__company {
+  font-size: 18px;
+  padding-top: 29px;
+  padding-bottom: 20px;
+}
+
+.company__input-general {
+  width: 242px;
+  height: 43px;
+  border: 1px solid #c7c7c7;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.company__input-general-valid {
+  width: 242px;
+  height: 43px;
+  border: 1px solid #c7c7c7;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px red;
+}
+
+.title__company-star {
+  color: red;
+}
+
+.search__undertext {
+  color: red;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.title__quantity {
+  padding-bottom: 20px;
+}
+
+.input::placeholder {
+  color: #949494;
+  text-align: center;
+}
+
+.title__key {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.enter__key {
+  width: 242px;
+  height: 43px;
+  border: 1px solid #c7c7c7;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-bottom: 21px;
+}
+
+.search__date-calendar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.search__date-input[type="date"] {
+  position: relative;
+  width: 176px;
+  height: 43px;
+  color: #949494;
+  border: 1px solid #c7c7c7;
+  border-radius: 5px;
+}
+
+.search__date-input-istvalid {
+  position: relative;
+  width: 176px;
+  height: 43px;
+  color: red;
+  border: 1px solid #c7c7c7;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px red;
+}
+
+.input__calendar-1 {
+  position: relative;
+  width: 176px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  position: absolute;
+  top: 11px;
+  right: 8.56px;
+  z-index: 10;
+}
+
+.input__calendar-2 {
+  position: relative;
+  width: 176px;
+}
+
+.open-button {
+  position: absolute;
+  top: 11px;
+  right: 8.56px;
+  pointer-events: none;
+}
+
+.calendar-img {
+  border: none;
+  background-color: #fff;
+}
+
+input[type="date"] {
+  appearance: none;
+}
+
+input[type="date"]:focus {
+  outline: none;
+}
+
+.seach__section-2 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 36px;
+  padding-left: 65px;
+  gap: 15px;
+}
+
+.real__checkbox {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.custom__chekbox {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border: 1px solid #000;
+  vertical-align: sub;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.custom__chekbox::before {
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-image: url(../../public/img/CheckMark.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  margin-top: 1px;
+
+  transition: 0.2s ease-in;
+}
+
+.real__checkbox:checked + .custom__chekbox::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.search__btn {
+  margin-top: 145px;
+  margin-left: 45px;
+  width: 305px;
+  height: 59px;
+  background-color: #5970ff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: medium;
+  cursor: pointer;
+}
+
+.underbtn__text {
+  padding-bottom: 32px;
+  padding-left: 42px;
+  font-size: 14px;
+  color: #949494;
+}
