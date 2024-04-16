@@ -5,6 +5,7 @@ import { checkInn } from "../validation/checkInn";
 import { checkLimit } from "../validation/checkLimit";
 import {
   getHistograms,
+  getObjectSearch,
   getObjectSearchId,
 } from "../features/authorization/authorizationSlice";
 import "../styles/search.css";
@@ -34,7 +35,8 @@ function Search() {
   const handleClickSearchHistorygrams = (e) => {
     e.preventDefault();
     if (isValid.innValid && isValid.quantityValid && isValid.dateValid) {
-      dispatch(getHistograms({ token, startDate, endDate, inn, quantity }))
+      dispatch(getHistograms({ token, startDate, endDate, inn, quantity }));
+      dispatch(getObjectSearch({ token, startDate, endDate, inn, quantity }))
         .then((result) => {
           if (
             result.meta.requestStatus === "fulfilled" &&
